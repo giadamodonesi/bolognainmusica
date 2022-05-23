@@ -1,0 +1,147 @@
+body {margin: 0px; }
+
+header {background-color: black;
+        color: white;
+        padding-bottom: 0.5em;
+        font-family: 'Ubuntu', sans-serif;
+
+        }
+
+main div h5 {font-family: 'Ubuntu', sans-serif;}
+main div p {font-family: 'Vollkorn', serif;}
+main section button {font-family: 'Ubuntu', sans-serif;}
+main section div.testoinfo {font-family: 'Vollkorn', serif;}
+
+
+.white {text-align: center;
+  color: white;
+       }
+
+
+li {list-style-type: none;
+    display: inline-block;
+    padding: 1em;
+    padding-bottom: 5em; 
+    }
+nav ul li a {text-decoration: none !important;
+	color: white; 
+              }
+nav {text-align: center;
+} 
+#logohome {max-width: 20%;
+margin: 0px 40%;
+margin-top: 5em; }  
+
+main {background-color: #a25cff;
+  font-family: 'Ubuntu', sans-serif;
+      
+      }
+.white:hover {color: #a25cff;}
+#viola:hover {color: #a25cff; }
+
+footer {background-color: black;
+        padding: 7%;
+        font-family: 'Ubuntu', sans-serif;
+
+        }
+
+main div {text-align: center; 
+color: white; }
+
+main div a {border-radius: 4px;
+border: solid 2px black;
+font-family: 'Ubuntu', sans-serif;}
+
+main div a:hover {border: solid 4px black;
+text-decoration: none; }
+#disattivato {color: rgb(220, 220, 220, 0.5) }
+
+main nav ul li a:hover {color: black; }
+
+.fotorock {width: 60%; }
+
+
+.testoinfo {color: black; }
+
+section.row {margin-right: 0px;}
+
+main nav {padding: 2em;}
+
+main nav h3 {padding: 1em;}
+
+.nero {color: black;}
+
+
+
+.alto {position: relative; 
+top: 0em; 
+bottom: 4em;
+color: #a25cff; }
+.altoscritta {position: relative;
+top: 4em;
+padding: 4em;}
+
+#fotoconcorso {width: 45%;
+padding: 1.5em;
+border-radius: 1em; }
+
+#iscrizione {width: 45%; 
+position: relative;
+left: 20em; 
+padding-bottom: 1em; 
+ }
+
+ main div div button {position: relative;
+  left: 8em; 
+border-radius: 6px; }
+  main div div button:hover {border: solid 4px black; }
+
+
+footer h1 {color: white;
+         padding: 2em;
+         text-align: center; 
+
+       }
+.centra {text-align: center; 
+color: white;}
+
+footer div p {color: white; 
+text-align: center; 
+}
+#piccolo {font-size: 12px; }
+
+.doc {width: 50%; }
+.doc1 {text-align: center;}
+
+.bianco {color: white;}
+#spazio {padding-bottom: 0px;}
+#doc1 {margin-bottom: 0px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   

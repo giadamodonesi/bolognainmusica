@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<style>
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&family=Vollkorn:wght@500&display=swap');
+</style>
+<!--questo link è il collegamento per la font-->
+	
+	  <script src="https://kit.fontawesome.com/2a7cd5b657.js" crossorigin="anonymous"></script>
+	  <!--questo link è quello per le icone-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta charset="utf-8">
+	<title>Eventi musicali a Bologna</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!--i link e i 3 script sono per il collegamento a bootstrap-->
+</head>
+<body>
+	<header>
+	 <section>
+	 	<img id="logohome" src="img/logo.jpg" alt="logo bologna in musica">
+	 </section>
+		<nav class="container">
+			<ul>
+				<li>
+					<a class="white" href="#">Home</a>
+				</li>
+
+				<li class="dropdown">
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#" id="viola">Eventi musicali</a>
+					<div class="dropdown-menu">
+                     <a class="dropdown-item" href="rock.html">Rock</a>
+                     <div class="dropdown-divider"></div>
+                     <a class="dropdown-item" href="classica.html">Classica</a>
+                     <div class="dropdown-divider"></div>
+                     <a class="dropdown-item" href="elettronica.html">elettronica</a>
+                     <div class="dropdown-divider"></div>
+                     <a class="dropdown-item" href="jazz.html">Jazz</a>
+                     <!--DOVE C'è # DEVO INSERIRE IL LINK ALLA PAGINA ROCK, CLASSICA ECC.-->
+                    </div>
+					   			
+				</li>
+				<li>
+					<a class="white" href="suonaanchetu.html">Suona anche tu</a>
+				</li>
+				<li>
+					<a class="white" href="chisiamo.html">Doc</a>
+				</li>
+			</ul>
+		</nav>
+	</header>	
+	<main>	
+		<div class="carta" class="card" style="width: auto;">
+                   <img src="img/homeprima.jpeg" class="card-img-top" alt="scopri gli eventi"/>
+                   <div class="card-body">
+                   <h5 class="card-title">Scopri i migliori eventi musicali di questo mese!</h5>
+                   <p class="card-text">Abbiamo selezionato i migliori eventi musicali della città.</BR> Vieni a scoprirli.</p>
+                   <a class="p-3 mb-2 bg-light text-dark" href="tutti.html" class="btn btn-primary" class"cane">scopri</a>
+                   <!--inserisci il link alla pagina di tutti gli eventi di maggio-->
+                   </div>
+         </div>	
+		<div class="carta" class="card" style="width: auto;">
+                   <img src="img/homeconcorso.jpeg" class="card-img-top" alt="scopri il concorso"/>
+                   <div class="card-body">
+                   <h5 class="card-title">Partecipa al concorso musicale!</h5>
+                   <p class="card-text">Hai una band? Sei un musicista e vuoi suonare </br>in uno dei migliori palchi di Bologna?</p>
+                   <a class="p-3 mb-2 bg-light text-dark" href="suonaanchetu.html" class="btn btn-primary" class="cane">partecipa</a>
+                   </div>
+        </div>
+
+	</main>
+	<footer>
+		
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<h5 class="centra">Contattaci</h5></br>
+					<p class="centra">
+						Dal lunedi al venerdì </br>
+						Dalle ore 9:00 alle 13:00</br>
+						Cell. 3243243243</br>
+						bolognainmusicaiu@gmail.com</p>
+
+				</div>
+
+
+				<div class="col-sm-4">
+					<h5 class="centra">Seguici su</h5></br>
+					<p class="centra">
+						<i id="viola" class="fa-brands fa-facebook-f"></i>
+		<i id="viola" class="fa-brands fa-twitter"></i>		
+		<i id="viola" class="fa-brands fa-instagram-square"></i>
+		<i id="viola" class="fa-brands fa-youtube"></i>
+
+					</p>
+
+					</div>
+				
+				<div class="col-sm-4" class="centra">
+					<h5 class="centra">Informazioni</h5></br>
+					<p class="centra">
+						Crediti</br>
+						Norme anti Covid-19 ai concerti</br>
+						Area riservata</br>
+						Aiuto</p>
+
+				</div>
+			</div>
+			<p id="piccolo">Il sito non è responsabile di eventuali cambiamenti di date o orari da parte degli organizzatori degli eventi</p>
+		</div>
+		
+	</footer>
+</body>
+</html>
