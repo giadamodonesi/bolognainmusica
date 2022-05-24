@@ -2,7 +2,7 @@ body {margin: 0px; }
 
 header {background-color: black;
         color: white;
-        padding-bottom: 0.5em;
+        padding-bottom: 3em;
         font-family: 'Ubuntu', sans-serif;
 
         }
@@ -116,6 +116,8 @@ text-align: center;
 .bianco {color: white;}
 #spazio {padding-bottom: 0px;}
 #doc1 {margin-bottom: 0px; }
+
+
 
 
 
